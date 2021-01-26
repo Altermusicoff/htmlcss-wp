@@ -43,7 +43,11 @@ header{
   color: grey;
   font-size: 0.9vw;
   display: inline-block;
+}
 
+main{
+  width: 100%;
+  margin: 0 auto;
 }
 
 #jumbotron{
@@ -55,37 +59,20 @@ header{
   background-repeat: no-repeat;
   border-radius: 25px;
   margin-bottom: 30px;
+  position: relative;
 }
 
-.aside{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 20%;
-  height: 40vh;
+.txtbox{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  width: 50%;
 }
 
-.asidesx{
-  background-image: url("../img/img-1.jpg");
-  float: left;
+.txtbox h2, .txtbox p{
+  color: white;
 }
 
-.asidedx{
-  background-image: url("../img/img-3.jpg");
-  float: left;
-}
-
-
-.overlay{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.20);
-  border-radius: 25px;
-  z-index: 2;
-}
-
-section{
-}
 
 .title{
   font-size: 1.7vw;
@@ -98,24 +85,54 @@ section{
   font-size: 1.5vw;
 }
 
-.sezione3{
-  background-image: url("../img/banner-2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.aside{
   float: left;
-  width: 58%;
-  margin: 0 1%;
-  height: 40vh;
+  width: 20%;
 }
 
-main{
+.aside img{
   width: 100%;
-  margin: 0 auto;
+  height: 225px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.central{
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.central img{
+  width: 100%;
+  height: 225px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.imagebox{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.20);
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 footer{
-  background-color: purple;
-  height: 70px;
-  margin-top: 10px;
+  text-align: center;
+  height: 30px;
+  margin-top: 35px;
+}
+
+#heart{
+  color: red;
+  margin-left: 5px;
 }
