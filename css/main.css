@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ‘Montserrat’, sans-serif;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container{
+  width: 80%;
+  margin: 0 calc(100% - 90%);
+}
+
+header{
+  height: 100%;
+  margin-bottom: 0.5vh;
+}
+
+#logo{
+  width: 8vw;
+  padding-right: 3vh;
+  border-right: 1px solid lightgrey;
+}
+
+#mainnav{
+  width: 100%;
+  margin: 0;
+  line-height: 10vh;
+}
+
+#mainnav li{
+  display: inline-block;
+  margin-right: 2%;
+}
+
+#mainnav li a{
+  text-decoration: none;
+  color: grey;
+  font-size: 0.9vw;
+  display: inline-block;
+
+}
+
+.aside{
+  float: left;
+  width: 15%;
+  background-color: lightblue;
+  height: 600px;
+  margin-top: 5%;
+}
+
+#jumbotron{
+  background-image: url("../img/banner.jpg");
+  width: 100%;
+  height: 645px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.20);
+  border-radius: 25px;
+  z-index: 2;
+}
+
+section{
+  background-color: blue;
+}
+
+.title{
+  font-size: 0.9vw; 
+  float: left;
+  width: 100%;
+  margin: 0;
+  background-color: lightblue;
+  height: 100px;
+}
+
+.sezione3{
+  float: left;
+  width: 60%;
+  margin: 5% 5%;
+  background-color: #50EBEC;
+  height: 600px;
+}
+
+main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: purple;
+  height: 70px;
+  margin-top: 10px;
+}
