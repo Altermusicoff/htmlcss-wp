@@ -17,14 +17,17 @@
 }
 
 header{
-  height: 20vh;
-  margin-bottom: 0.5vh;
+  height: 25%;
+  margin-bottom: 1%;
 }
 
-#logo{
-  width: 8vw;
-  padding-right: 3vh;
+.logobox{
+  width: 15%;
   border-right: 1px solid lightgrey;
+}
+
+.logobox #logo{
+  width: 91%;
 }
 
 #mainnav{
@@ -64,7 +67,7 @@ main{
 
 .txtbox{
   position: absolute;
-  bottom: 10%;
+  bottom: 25%;
   left: 5%;
   width: 50%;
 }
